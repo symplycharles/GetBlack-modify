@@ -1,0 +1,15 @@
+header {
+    box-shadow: 0 -4px 10px 4px rgba(255, 68, 0, 0.322);
+    background-color: #fff;
+    z-index: 1000;
+    padding: 30px 0 20px 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        input {
+            display: none;
+        }
+    }
+}
