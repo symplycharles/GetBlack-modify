@@ -1,9 +1,12 @@
 import React from 'react'
+import sale from "../../assets/images/sales.png"
+
 
 const FoodCard = () => {
     return (
         <div>
             <div>
+                <img src={sale} alt="sale-logo" className='h-[40px] w-40px' />
                 <p className='text-orange text-5xl font-medium leading-10'>Pounded Yam</p>
                 <p className='text-4xl font-normal text-grey leading-9'>Egusi Soup and Meat</p>
                 <p className='text-sm font-normal leading-6'>

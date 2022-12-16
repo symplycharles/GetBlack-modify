@@ -46,11 +46,11 @@ function Navbar() {
               <Link to='/shop'>Shops</Link>
             </li>
             <div className='flex items-center'>
-          <div className='mr-4 hidden md:flex'>
+          <div className='mr-4 hidden md:flex search'>
             <input
               type='text'
               placeholder='Search'
-              className=' p-2 w-full max-w-sm rounded-lg border-2 border-[#D9D9D9] placeholder:text-black focus:outline-[#D9D9D9]'
+              className='search p-2 w-full max-w-sm rounded-lg border-2 border-[#D9D9D9] placeholder:text-black focus:outline-[#D9D9D9]'
             />
           </div>
           {/* <div className="w-7 hidden lg:flex">
